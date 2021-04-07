@@ -1,0 +1,5 @@
+* text=auto
+* python=auto
+
+*.png binary
+*.jpg binary

@@ -17,3 +17,6 @@ try:
 except:
       print("please insert numerics")
 exit()
+#programme to show grade score b/w 0.0 and 1.0
+#i run this programm on interactive python, i.e loaded it through accessing cmd and python file
+#directory

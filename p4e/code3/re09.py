@@ -1,0 +1,13 @@
+# Search for lines that start 'X' followed by any non whitespace
+# characters and ':' then output the first group of non whitespace
+# characters that follows
+import re
+count=0
+hand = open('mbox-short.txt')
+for line in hand:
+    line = line.rstrip()
+    x = re.findall('^X\S*: (\S+)', line)
+    if not x: continue
+    print(x)
+    count=count+1
+print(count)    
